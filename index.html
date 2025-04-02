@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selesta 2K25 Hackathon Registration</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo" onclick="showPage('home')"><img src="college_logo.png" alt="SVCET Logo">Selesta 2K25</a>
+                <ul class="nav-links">
+                    <li><a href="#" onclick="showPage('home')">Home</a></li>
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSf023_XSVi30NtXIAIBp0EyJn1sMghdIgq-b_L7lVP7e83XuQ/viewform">Register</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <div class="hackathon-section">
+            <div class="hackathon-content">
+                <div class="hackathon-logo">
+                    <div class="svcet-logo"></div>
+                   </div>
+                
+                <h1 class="hackathon-title" style="font-size: 50px;">Selesta 2K25</h1>
+                <p class="hackathon-subtitle">Hack it Till You Make it!</p>
+                <h2 class="hackathon-title">Hackathon!</h2>
+                
+                <p class="hackathon-description">Show off your hacking skills in our Hackathon.</p>
+                
+                <div class="hackathon-date">April 7th & 8th</div>
+                
+                <div class="register-section">
+                    <div class="qr-code">
+                        <img src="frame.png" alt="Registration QR Code" width="120" height="120">
+                    </div>
+                    
+                    <p>Register & Participate!</p>
+                    
+                    <div class="prize-info">
+                        This Time<br>
+                        Big Tons!<br>
+                        Epic Cash Awards<br>
+                        And<br>
+                        Participation Certificate
+                    </div>
+                </div>
+                
+                <button class="register-button" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSf023_XSVi30NtXIAIBp0EyJn1sMghdIgq-b_L7lVP7e83XuQ/viewform'">REGISTER NOW</button>
+                
+                <div class="organizer-info">
+                    <p>Organized By:</p>
+                    <p class="dept-name">Department of Information Technology & CSE(IOT)</p>
+                    <p class="sie-cell">SIE Cell</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Event Details Box -->
+        <div class="container">
+            <section class="event-details">
+                <div class="container">
+                    <h2 class="section-title">Event Details</h2>
+                    <div class="event-details-grid">
+                        <div class="event-detail-card">
+                            <div class="event-detail-icon">📅</div>
+                            <h3 class="event-detail-title">Event Dates</h3>
+                            <div class="event-detail-value">7th & 8th April 2025</div>
+                            <div class="event-detail-subtitle">Two Days of Innovation</div>
+                        </div>
+                        
+                        <div class="event-detail-card">
+                            <div class="event-detail-icon">⏰</div>
+                            <h3 class="event-detail-title">Event Time</h3>
+                            <div class="event-detail-value">9:00 AM - 6:00 PM</div>
+                            <div class="event-detail-subtitle">Each Day</div>
+                        </div>
+                        
+                        <div class="event-detail-card">
+                            <div class="event-detail-icon">👥</div>
+                            <h3 class="event-detail-title">Team Size</h3>
+                            <div class="event-detail-value">Up to 5 Members</div>
+                            <div class="event-detail-subtitle">Per Team</div>
+                        </div>
+                        
+                        <div class="event-detail-card">
+                            <div class="event-detail-icon">🏆</div>
+                            <h3 class="event-detail-title">Prizes</h3>
+                            <div class="event-detail-value">Exciting Rewards</div>
+                            <div class="event-detail-subtitle">For Winners</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Project Themes Section -->
+        <section class="features" style="background-color: var(--light);">
+            <div class="container">
+                <h2 class="section-title">Project Themes</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon">🌍</div>
+                        <h3>AI Environmental Monitor</h3>
+                        <p>Build an AI-powered system to monitor and analyze environmental data, predict trends, and provide real-time alerts for environmental protection.</p>
+                        <ul style="text-align: left; margin-top: 15px;">
+                            <li>Real-time data collection (air quality, temperature, humidity)</li>
+                            <li>ML-based predictions and trend analysis</li>
+                            <li>Interactive dashboard with data visualization</li>
+                            <li>Smart alerts for environmental changes</li>
+                            <li>Actionable recommendations for protection</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">📚</div>
+                        <h3>Smart Education Platform</h3>
+                        <p>Create an adaptive learning platform that personalizes content based on student performance and integrates gamification features.</p>
+                        <ul style="text-align: left; margin-top: 15px;">
+                            <li>AI-driven personalized learning paths</li>
+                            <li>Smart content adaptation based on progress</li>
+                            <li>Interactive gamification elements</li>
+                            <li>Comprehensive performance analytics</li>
+                            <li>Intelligent student inquiry response system</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🏥</div>
+                        <h3>AI Health Assistant</h3>
+                        <p>Develop an intelligent health assistant for personalized medical support, featuring symptom checking and health recommendations.</p>
+                        <ul style="text-align: left; margin-top: 15px;">
+                            <li>Smart health chatbot with natural language processing</li>
+                            <li>Advanced symptom analysis and basic diagnosis</li>
+                            <li>Secure health data management</li>
+                            <li>Personalized health tips and reminders</li>
+                            <li>Health record integration and tracking</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🌾</div>
+                        <h3>Smart Agriculture System</h3>
+                        <p>Create an AI-powered system for real-time crop disease detection and monitoring, helping farmers optimize crop health and yield.</p>
+                        <ul style="text-align: left; margin-top: 15px;">
+                            <li>Computer vision for disease detection</li>
+                            <li>Real-time environmental monitoring</li>
+                            <li>AI-based diagnosis and treatment suggestions</li>
+                            <li>Smart alerts for potential risks</li>
+                            <li>Crop health analytics and reporting</li>
+                        </ul>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">💡</div>
+                        <h3>Student Innovation Track</h3>
+                        <p>Showcase your creativity by developing innovative AI solutions for real-world problems in various domains.</p>
+                        <ul style="text-align: left; margin-top: 15px;">
+                            <li>Environment and Sustainability</li>
+                            <li>Healthcare and Wellness</li>
+                            <li>Education Technology</li>
+                            <li>Financial Services</li>
+                            <li>Hospitality and Retail</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <h2 class="section-title">Why Participate?</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="icon">🏆</div>
+                        <h3>Amazing Prizes</h3>
+                        <p>Win cash prizes.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🤝</div>
+                        <h3>Networking</h3>
+                        <p>Connect with industry professionals, mentors, and like-minded peers from diverse backgrounds.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">💡</div>
+                        <h3>Learning</h3>
+                        <p>Enhance your technical skills, learn new technologies, and gain hands-on experience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section id="timeline" class="timeline">
+            <div class="container">
+                <h2 class="section-title">Event Timeline</h2>
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <h3>Registration Opens</h3>
+                        <p>April 1, 2025</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Registration Closes</h3>
+                        <p>April 6, 2025</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Hackathon Day 1</h3>
+                        <p>April 7, 2025 - 9:00 AM to 6:00 PM</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Hackathon Day 2</h3>
+                        <p>April 8, 2025 - 9:00 AM to 6:00 PM</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Results & Prize Distribution</h3>
+                        <p>April 8, 2025 - 6:30 PM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Who can participate?</span>
+                            <span>+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>All college students are eligible to participate. Teams must have 2-4 members, and all team members should be from the same institution. Participants should be currently enrolled students.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>What should I bring?</span>
+                            <span>+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Please bring your laptop. You may also bring any specific hardware if your project requires it.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Are there any theme restrictions?</span>
+                            <span>+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Projects must align with one of our five tracks: AI Environmental Monitor, Smart Education Platform, AI Health Assistant, Smart Agriculture System, or Student Innovation Track. Your solution should be original and developed during the hackathon.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>How will projects be judged?</span>
+                            <span>+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Projects will be evaluated based on innovation (30%), technical complexity (25%), practical impact (25%), and presentation quality (20%). Each team will have 5 minutes to present their solution to our panel of industry experts and academic judges.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <h3>Selesta 2K25 Hackathon</h3>
+                        <p>Organized by IT &CSE(IOT)<br>
+                            Dr.J.velmurugan(HOD)
+                            </p>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#" onclick="showPage('home')">Home</a></li>
+                            <li><a href="registration.html">Register</a></li>
+                            <li><a href="#timeline">Timeline</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact Us</h3>
+                        <ul>
+                            <li>Venue: SVCET</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 Selesta 2K25 Hackathon. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
